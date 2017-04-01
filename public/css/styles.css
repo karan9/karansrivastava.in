@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+.wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: 
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkSAMAAGwAaKJgE8oAAAAASUVORK5CYII=), 
+url(https://s13.postimg.org/fi5scjdyv/mark-solarski-209233-min_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+ul.nav {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+  color: #fff;
+}
+ul.nav li:not(:first-child) {
+  margin-left: 10px;
+}
+ul.nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+  font-size: 0.9em;
+  padding-bottom: 5px;
+}
+ul.nav a:hover {
+  border-bottom: 1px solid white;
+}
+
+#text-heading {
+  font-size: 3.5em;
+  color: #fff;
+  border-bottom: 1px solid #aaa;
+}

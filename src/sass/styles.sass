@@ -1,0 +1,52 @@
+$base: #fefefe
+$text-color: #fff
+
+*
+  box-sizing: border-box
+  &:before, &:after
+    box-sizing: inherit
+
+html
+  font-family: 'Raleway', sans-serif
+
+.wrapper
+  position: relative
+  display: flex
+  justify-content: space-around
+  align-items: center
+  height: 100vh
+  width: 100vw
+  background-image: 
+url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkSAMAAGwAaKJgE8oAAAAASUVORK5CYII=), 
+url(https://s13.postimg.org/fi5scjdyv/mark-solarski-209233-min_1.jpg)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center 
+.content-wrapper
+  display: flex
+  justify-content: space-between
+  align-items: center
+  flex-direction: column
+ul.nav
+  list-style: none
+  display: flex
+  justify-content: space-between
+  width: 100%
+  margin: 10px 0px 0px 0px
+  padding: 0px
+  color: $text-color
+  li
+    &:not(:first-child)
+      margin-left: 10px
+  a
+    text-decoration: none
+    text-transform: uppercase
+    color: inherit
+    font-size: 0.9em
+    padding-bottom: 5px
+    &:hover
+      border-bottom: 1px solid white
+#text-heading
+  font-size: 3.5em
+  color: $text-color
+  border-bottom: 1px solid #aaa

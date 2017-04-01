@@ -1,0 +1,23 @@
+{
+  "name": "karansrivastava.in",
+  "version": "1.0.0",
+  "description": "My website",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karan9/karansrivastava.in.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karan9/karansrivastava.in/issues"
+  },
+  "homepage": "https://github.com/karan9/karansrivastava.in#readme"
+}
